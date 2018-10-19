@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>016D2588-21CB-48DC-9F4B-36690AECCCED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D5551365-81AF-4143-9DC7-529F92C5E4DE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Songcheng Lee</string>
+	<key>description</key>
+	<string>workflow file that allows you to ask terminal to say something</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Say command!</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>#!/usr/bin/python
+__version__ = '0.1_alfred'
+import os
+import sys
+
+langs = {'jp':'Kyoko','en':'Daniel'}
+
+query = sys.argv[1]
+
+recog = query[0] + query[1]
+if recog in langs:
+    says = '-v ' + langs[recog] + ' '
+    for i in range(2, len(query)):
+        says += query[i]
+elif query == 'who you are':
+	says = 'I am your assistant.'
+else:
+    says = query
+
+os.system('say ' + says)</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D5551365-81AF-4143-9DC7-529F92C5E4DE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>say:</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Say</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>016D2588-21CB-48DC-9F4B-36690AECCCED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>016D2588-21CB-48DC-9F4B-36690AECCCED</key>
+		<dict>
+			<key>xpos</key>
+			<integer>80</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>D5551365-81AF-4143-9DC7-529F92C5E4DE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>https://github.com/LiSongcheng</string>
+</dict>
+</plist>
