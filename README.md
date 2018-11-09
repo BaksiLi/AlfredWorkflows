@@ -1,5 +1,5 @@
 # AlfredWorkflows
-My own workflow creations for Alfred (or Terminal).
+My own workflow creations for Alfred (or Terminal).   
 <sub>Most of them are Terminal friendly.</sub>
 ## Menu
 - [Should-I-do-it](https://github.com/LiSongcheng/AlfredWorkflows/tree/master/Index/should_i_do_it): A workflow aimed to solve probably the biggest philosophical question in dailylife: should I do it?  
@@ -11,5 +11,6 @@ My own workflow creations for Alfred (or Terminal).
     
 ## Acknowledgement
 This project collection is licenced under the MIT License.
+It is also published on [Packal](http://www.packal.org/users/lisongcheng), please check it if you want to have find out more Alfred widgets written by the author.
 
 Copyright (c) 2018 Socheng
