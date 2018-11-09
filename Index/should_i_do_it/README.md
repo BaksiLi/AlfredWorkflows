@@ -1,7 +1,7 @@
 should_i_do_it
 ---
 
-![should_i_do_it_logo](https://github.com/LiSongcheng/should_i_do_it/blob/master/logo.png?raw=true)
+![should_i_do_it_logo](./logo.png)
 
 ## Abstract - Philosophy of it  
 This simple programme is aimed to solve probably the biggest philosophical question I met everyday:"Should I do xxx?", e.g. "Should I go to the Library or just back for sleep?". By clicking on this amazing icon you can find the answer. Feeling excited? Just try it now!
