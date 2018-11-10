@@ -10,7 +10,7 @@ My own workflow creations for Alfred (or Terminal).
     Download: [here](https://github.com/LiSongcheng/AlfredWorkflows/blob/master/workflows/Fast_ascii.alfredworkflow?raw=true)
     
 ## Acknowledgement
-This project collection is licenced under the MIT License.
+This project collection is licenced under the MIT License.  
 It is also published on [Packal](http://www.packal.org/users/lisongcheng), please check it if you want to have find out more Alfred widgets written by the author.
 
 Copyright (c) 2018 Socheng
