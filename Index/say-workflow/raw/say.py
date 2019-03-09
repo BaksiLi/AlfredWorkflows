@@ -9,7 +9,7 @@ langs = {'jp':'Kyoko','en':'Daniel','ch':'Sin-ji','fr':'Thomas'}
 query = sys.argv[1]
 
 if "'" in query:
-	query = query.replace("'", "’")
+    query = query.replace("'", "’")
 
 recog = query[0] + query[1]
 if recog in langs:
