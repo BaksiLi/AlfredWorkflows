@@ -13,5 +13,5 @@ My own workflow creations for Alfred. Most of them are Terminal friendly.
 This project collection is licenced under the MIT License.  
 It is also published on [Packal](http://www.packal.org/users/lisongcheng), please check it if you want to have find out more Alfred widgets written by the author.
 
-Copyright (c) 2018 Socheng
+Copyright (c) 2018 BaksiLi
 

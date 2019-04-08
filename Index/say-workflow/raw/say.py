@@ -25,7 +25,7 @@ voices = {
 replace_words = {
     '’': "'",
     '`': "'",
-    'fuck': 'f-word'
+    'fuck': 'beee'
 }  # dict of words to replace
 
 # Read query
@@ -37,22 +37,18 @@ for word in replace_words:
         query = query.replace(word, replace_words[word])
 
 # Text processing
-try:  # try to recognise any voice names
-    recog = query[:2]  # the first two letters
-    for voice in voices:
-        if is_anagram(recog, voice):
-            recog = voice
-except IndexError:
+recog = query[:2]  # the first two letters
+for voice in voices:
+    if is_anagram(recog, voice):
+        recog = voice
+        query = query[2:]
+if recog not in voices:
     recog = voice_default  # if failed, use the `default voice'
 
-if recog in voices:
-    says = '-v ' + voices[recog] + ' '
-    for i in range(2, len(query)):
-        says += query[i]
-elif query == '?':  # Easter Egg!
+says = '-v ' + voices[recog] + ' "' + query + '"'
+
+if query == '?':  # Easter Egg!
     says = 'I am your assistant.'
-else:
-    says = query
 
 # Run command
 os.system('say ' + says)
