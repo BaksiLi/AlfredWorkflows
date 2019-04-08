@@ -42,6 +42,7 @@ for voice in voices:
     if is_anagram(recog, voice):
         recog = voice
         query = query[2:]
+
 if recog not in voices:
     recog = voice_default  # if failed, use the `default voice'
 

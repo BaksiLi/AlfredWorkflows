@@ -1,5 +1,5 @@
 # AlfredWorkflows
-My own workflow creations for Alfred. Most of them are Terminal friendly.
+My own workflow creations for Alfred. Most of them are Terminal friendly.  
 <sub>For Chinese version of this page, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
 ## Menu
 - [Should-I-do-it](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/should_i_do_it): A workflow aimed to solve probably the biggest philosophical question in dailylife: should I do it?  

@@ -35,11 +35,13 @@ It can allows you to read some text easily without open terminal or a text file.
   ![5](./pics/5.png)  
   and return, bob's your uncle!
 
+Since ver. 0.4, say-workflow is able to recognise anagrams of the language codes. E.g. `Pj` and `Jp` are valid synonyms for `jp`. 
+
 ## Problem shooting
 - If you would like to change the speech or add more language, just add them in the dictionary called langs in the source code.  
 ```langs = {'jp':'Kyoko','en':'Daniel'}```  
-add like this:  
-```lans = {'jp':'Kyoko','en':'Daniel','ch':'Sinji'}```  
+add it like this:  
+```langs = {'jp':'Kyoko','en':'Daniel','ch':'Sinji'}```  
 for voices names and their corresponding abbreviations, check [“say” in different language?](https://apple.stackexchange.com/questions/3454/say-in-different-language).
 - If you type in a word but nothing has happened.
 check if the text you've typed in is valid under the language you chose.
