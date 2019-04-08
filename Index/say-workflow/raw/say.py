@@ -1,21 +1,49 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*
-__version__ = '0.3_alfred'
+__version__ = '0.4_alfred'
 import os
 import sys
 
+
+def is_anagram(word1, word2):
+    if len(word1.lower()) != len(word2.lower()):
+        return False
+    return sorted(word1.lower()) == sorted(word2.lower())
+
+
+# ---
+
+# Settings
+voice_default = 'en'
+voices = {
+    'en': 'Daniel',
+    'jp': 'Kyoko',
+    'ch': 'Sin-ji',
+    'fr': 'Thomas',
+    'kr': 'Yuna'
+}  # dic of voices
+replace_words = {
+    '’': "'",
+    '`': "'",
+    'fuck': 'f-word'
+}  # dict of words to replace
+
+# Read query
 query = sys.argv[1]
 
-if "’" in query:
-    query = query.replace("’", "'")
+# Replace words
+for word in replace_words:
+    if word in query:
+        query = query.replace(word, replace_words[word])
 
-voices = {'en':'Daniel','jp':'Kyoko','ch':'Sin-ji','fr':'Thomas', 'kr': 'Yuna'}
-voice_default = 'en'  # not `really default'
-
+# Text processing
 try:  # try to recognise any voice names
-    recog = query[:2].lower()  # the first two letters
+    recog = query[:2]  # the first two letters
+    for voice in voices:
+        if is_anagram(recog, voice):
+            recog = voice
 except IndexError:
-	recog = voice_default  # if failed, use the `default voice'
+    recog = voice_default  # if failed, use the `default voice'
 
 if recog in voices:
     says = '-v ' + voices[recog] + ' '
@@ -26,4 +54,5 @@ elif query == '?':  # Easter Egg!
 else:
     says = query
 
+# Run command
 os.system('say ' + says)
