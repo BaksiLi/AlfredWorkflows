@@ -1,4 +1,6 @@
 # AlfredWorkflows
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 This repository curates my own workflow creations for [Alfred](https://www.alfredapp.com). Most of them are Terminal friendly.  
 <sub>For Chinese version of this page, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
 ## Menu
@@ -9,7 +11,7 @@ This repository curates my own workflow creations for [Alfred](https://www.alfre
 - [Fast-ascii](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/fast-ascii): A workflow that convert and paste ascii fastly.  
     Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/Fast_ascii.alfredworkflow?raw=true)
 ## Snippets
-I have created a few useful snippets as well. Please have a try.
+I have created a few useful snippets as well. Please have a try.   
 - [Greek Alphabet](https://github.com/BaksiLi/Greek-Alphabet-Alfred-Snippet)
 - [Bopomofo](https://github.com/BaksiLi/Bopomofo-snippet)
 
