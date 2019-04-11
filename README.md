@@ -1,5 +1,5 @@
 # AlfredWorkflows
-My own workflow creations for Alfred. Most of them are Terminal friendly.  
+This repository curates my own workflow creations for [Alfred](https://www.alfredapp.com). Most of them are Terminal friendly.  
 <sub>For Chinese version of this page, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
 ## Menu
 - [Should-I-do-it](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/should_i_do_it): A workflow aimed to solve probably the biggest philosophical question in dailylife: should I do it?  
@@ -8,7 +8,12 @@ My own workflow creations for Alfred. Most of them are Terminal friendly.
     Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/say_command.alfredworkflow?raw=true)
 - [Fast-ascii](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/fast-ascii): A workflow that convert and paste ascii fastly.  
     Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/Fast_ascii.alfredworkflow?raw=true)
-    
+## Snippets
+I have created a few useful snippets as well. Please have a try.
+- [Greek Alphabet](https://github.com/BaksiLi/Greek-Alphabet-Alfred-Snippet)
+- [Bopomofo](https://github.com/BaksiLi/Bopomofo-snippet)
+
+
 ## Acknowledgement
 This project collection is licenced under the MIT License.  
 It is also published on [Packal](http://www.packal.org/users/lisongcheng), please check it if you want to have find out more Alfred widgets written by the author.
