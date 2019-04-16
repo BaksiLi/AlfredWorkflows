@@ -1,5 +1,6 @@
 # AlfredWorkflows
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ <img src="https://img.shields.io/badge/status-updating-lightgreen.svg" alt="Updating">
 
 This is a growing repository curates my workflow creations for [Alfred](https://www.alfredapp.com). Most of them are Terminal friendly.  
 <sub>For Chinese version of this page, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
@@ -13,20 +14,17 @@ This is a growing repository curates my workflow creations for [Alfred](https://
     Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/Fast_ascii.alfredworkflow?raw=true)
 
 # Snippets
-I have created a few useful snippets as well. Please have a try.   
+I have created a few useful snippets as well. Please have a try.
+
 - [Greek Alphabet](https://github.com/BaksiLi/Greek-Alphabet-Alfred-Snippet)
 - [Bopomofo](https://github.com/BaksiLi/Bopomofo-snippet)
 
 # Other features
-- **Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL. It is simple but powerful (sorry for the cliché). Then, given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom-searches/), why do I still bother to introduce it here? Because **knowing what it can do is far from know how to do it**. Here I will propose a few webpages to add to Alfred.
-
-	<details>
-	<summary>Suggestions</summary>
-	Click on the link to add them. <img src="https://img.shields.io/badge/status-updating-lightgreen.svg" alt="Updating">
+- **Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL. It is simple but powerful (sorry for the cliché). Then, given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom-searches/), why do I still bother to introduce it here? Because **knowing what it can do is far from know how to do it**. Here I will propose a few webpages to add to Alfred. Click on the link to add them.
+	
 	- [Wolfram|Alpha](alfred://customsearch/Compute%20%7Bquery%7D%20in%20Wolfram%20Alpha/alpha/utf8/%2B/https%3A%2F%2Fwww.wolframalpha.com%2Finput%2F%3Fi%3D%7Bquery%7D)
 	- [Wolfram MathWorld](alfred://customsearch/Search%20%7Bquery%7D%20in%20Wolfram%20MathWorld/math/utf8/%2B/http%3A%2F%2Fmathworld.wolfram.com%2Fsearch%2F%3Fquery%3D%7Bquery%7D)
 	- [Standford Encyclopedio of Philosophy](alfred://customsearch/Search%20%7Bquery%7D%20in%20Standford%20Encyclopedia%20of%20Philosophy/sep/utf8/nospace/https%3A%2F%2Fplato.stanford.edu%2Fsearch%2Fsearcher.py%3Fquery%3D%7Bquery%7D)
-	</details>
 
 # Acknowledgement
 This project collection is licenced under the MIT License.  
