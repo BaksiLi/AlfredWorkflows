@@ -1,6 +1,6 @@
 # AlfredWorkflows
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- <img src="https://img.shields.io/badge/status-updating-lightgreen.svg" alt="Updating">
+[Updating](https://img.shields.io/badge/status-updating-lightgreen.svg)
 
 This is a growing repository curates my workflow creations for [Alfred](https://www.alfredapp.com). Most of them are Terminal friendly.  
 <sub>For Chinese version of this page, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
