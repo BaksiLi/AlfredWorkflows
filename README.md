@@ -1,6 +1,6 @@
 # AlfredWorkflows
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[Updating](https://img.shields.io/badge/status-updating-lightgreen.svg)
+![Updating](https://img.shields.io/badge/status-updating-lightgreen.svg)
 
 This is a growing repository curates my workflow creations for [Alfred](https://www.alfredapp.com). Most of them are Terminal friendly.  
 <sub>For Chinese version of this page, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
@@ -24,9 +24,24 @@ I have created a few useful snippets as well. Please have a try.
 **Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL. It is simple but powerful (sorry for the cliché). Then, given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom-searches/), why do I still bother to introduce it here? Because **knowing what it can do is far from know how to do it**. Here I will propose a few webpages to add to Alfred. Click on the link to add them.
 
 - Wolfram|Alpha
+
 <details>
 
+Suppose you are solving a question:
+> How many times faster it is to solve TSP (Travelling Salesperson Problem), by using dynamic-programming-based algorithm (<a href="https://www.codecogs.com/eqnedit.php?latex=n!" target="_blank"><img src="https://latex.codecogs.com/png.latex?n!" title="n!" /></a>) than using brute force search algorithm(<a href="https://www.codecogs.com/eqnedit.php?latex=n^2&space;2^n" target="_blank"><img src="https://latex.codecogs.com/png.latex?n^2&space;2^n" title="n^2 2^n" /></a>), given that n=100?
+
+The solution is obtained by computing <a href="https://www.codecogs.com/eqnedit.php?latex=$\frac{100!}{100^{2}\times&space;2^{100}}$" target="_blank"><img src="https://latex.codecogs.com/png.latex?\frac{100!}{100^{2}\times&space;2^{100}}" title="\frac{100!}{100^{2}\times 2^{100}}" /></a>.
+It could be done in just one line, anywhere in your computer.
+```
+alpha log(100!/(100^2 * 2^100))
+```
+![illustration](features/alpha1.png)
+and you will see the following result in Wolfram|Alpha:
+![illustration](features/alpha2.png)
+Powerful, innit?
+
 > alfred://customsearch/Compute%20%7Bquery%7D%20in%20Wolfram%20Alpha/alpha/utf8/%2B/https%3A%2F%2Fwww.wolframalpha.com%2Finput%2F%3Fi%3D%7Bquery%7D
+
 </details>
 	
 - Wolfram MathWorld
