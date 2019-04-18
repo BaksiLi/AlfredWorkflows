@@ -28,9 +28,9 @@ I have created a few useful snippets as well. Please have a try.
 <details>
 
 Suppose you are solving a question:
-> How many times faster it is to solve TSP (Travelling Salesperson Problem), by using dynamic-programming-based algorithm (<a href="https://www.codecogs.com/eqnedit.php?latex=n!" target="_blank"><img src="https://latex.codecogs.com/png.latex?n!" title="n!" /></a>) than using brute force search algorithm(<a href="https://www.codecogs.com/eqnedit.php?latex=n^2&space;2^n" target="_blank"><img src="https://latex.codecogs.com/png.latex?n^2&space;2^n" title="n^2 2^n" /></a>), given that n=100?
+> How many times faster it is to solve TSP (Travelling Salesperson Problem), by using dynamic-programming-based algorithm (![$n!$](features/formula1.png)) than using brute force search algorithm(![$$n^2 2^n$](features/formula2.png)), given that n=100?
 
-The solution is obtained by computing <a href="https://www.codecogs.com/eqnedit.php?latex=$\frac{100!}{100^{2}\times&space;2^{100}}$" target="_blank"><img src="https://latex.codecogs.com/png.latex?\frac{100!}{100^{2}\times&space;2^{100}}" title="\frac{100!}{100^{2}\times 2^{100}}" /></a>.
+The solution is obtained by computing ![$\frac{100!}{100^{2}\times 2^{100}}$](features/formula3.png).
 It could be done in just one line, anywhere in your computer.
 ```
 alpha log(100!/(100^2 * 2^100))
