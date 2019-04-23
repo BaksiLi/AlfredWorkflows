@@ -27,9 +27,9 @@ I have created a few useful snippets as well. Please have a try.
 <details>
 
 Suppose you are solving a question:
-> How many times faster it is to solve TSP (Travelling Salesperson Problem), by using dynamic-programming-based algorithm (![$n!$](features/formula1.png)) than using brute force search algorithm(![$$n^2 2^n$](features/formula2.png)), given that n=100?
+> How many times faster it is to solve TSP (Travelling Salesperson Problem), by using dynamic-programming-based algorithm (![$n!$](https://latex.codecogs.com/svg.latex?n%21)) than using brute force search algorithm(![$n^2 2^n$](https://latex.codecogs.com/svg.latex?n%5E2%202%5En)), given that n=100?
 
-The solution is obtained by computing ![$\frac{100!}{100^{2}\times 2^{100}}$](features/formula3.png).
+The solution is obtained by computing ![$\frac{100!}{100^{2}\times 2^{100}}$](https://latex.codecogs.com/svg.latex?%5Cfrac%7B100%21%7D%7B100%5E%7B2%7D%5Ctimes%202%5E%7B100%7D%7D).
 It could be done in just one line:
 ```
 alpha 100!/(100^2 * 2^100)
