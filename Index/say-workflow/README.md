@@ -1,8 +1,8 @@
+<img src="./raw/icon.png" width:auto height=256pt align="right" />
+
 # say-workflow
 ---
 Read out something swiftly. [Download](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/say_command.alfredworkflow?raw=true)
-
-![logo](./raw/icon.png)
 
 Does this ever happens to you?
 That you just want to have a *quick check of the pronunciation* of a word/sentence without being distracted too much.
