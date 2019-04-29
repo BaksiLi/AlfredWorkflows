@@ -1,4 +1,4 @@
-<img src="./raw/icon.png" width:auto height=256pt align="right" />
+<img src="./raw/icon.png" width:auto height=128pt align="right" />
 
 # say-workflow
 ---
@@ -6,7 +6,7 @@ Read out something swiftly. [Download](https://github.com/BaksiLi/AlfredWorkflow
 
 Does this ever happens to you?
 That you just want to have a *quick check of the pronunciation* of a word/sentence without being distracted too much.
-Or you want to *suprise your classmates in a boring lecture* (and no one would realise that's you)?
+Or you want to *surprise your classmates in a boring lecture* (and no one would realise that's you)?
 
 Now with say-workflow, you can do all of these just with simple clicks on your keyboard.
 
