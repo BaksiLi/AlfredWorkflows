@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>com.lisongcheng.say</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>016D2588-21CB-48DC-9F4B-36690AECCCED</key>
@@ -21,9 +23,9 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Songcheng Lee</string>
+	<string>BaksiLi</string>
 	<key>description</key>
-	<string>workflow file that allows you to ask terminal to say something</string>
+	<string>Read something out to surprise your friends</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -39,24 +41,58 @@
 				<integer>68</integer>
 				<key>script</key>
 				<string>#!/usr/bin/python
-__version__ = '0.1_alfred'
+# -*- coding: utf-8 -*
+__version__ = '0.4_alfred'
 import os
 import sys
 
-langs = {'jp':'Kyoko','en':'Daniel'}
 
+def is_anagram(word1, word2):
+    if len(word1.lower()) != len(word2.lower()):
+        return False
+    return sorted(word1.lower()) == sorted(word2.lower())
+
+
+# ---
+
+# Settings
+voice_default = 'en'
+voices = {
+    'en': 'Daniel',
+    'jp': 'Kyoko',
+    'ch': 'Sin-ji',
+    'fr': 'Thomas',
+    'kr': 'Yuna'
+}  # dic of voices
+replace_words = {
+    '’': "'",
+    '`': "'",
+    'fuck': 'beee'
+}  # dict of words to replace
+
+# Read query
 query = sys.argv[1]
 
-recog = query[0] + query[1]
-if recog in langs:
-    says = '-v ' + langs[recog] + ' '
-    for i in range(2, len(query)):
-        says += query[i]
-elif query == 'who you are':
-	says = 'I am your assistant.'
-else:
-    says = query
+# Replace words
+for word in replace_words:
+    if word in query:
+        query = query.replace(word, replace_words[word])
 
+# Text processing
+recog = query[:2]  # the first two letters
+for voice in voices:
+    if is_anagram(recog, voice):
+        recog = voice
+        query = query[2:]
+if recog not in voices:
+    recog = voice_default  # if failed, use the `default voice'
+
+says = '-v ' + voices[recog] + ' "' + query + '"'
+
+if query == '?':  # Easter Egg!
+    says = 'I am your assistant.'
+
+# Run command
 os.system('say ' + says)</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -78,11 +114,11 @@ os.system('say ' + says)</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>say:</string>
+				<string>say</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Say</string>
+				<string>Say {query}</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -101,19 +137,21 @@ os.system('say ' + says)</string>
 		<key>016D2588-21CB-48DC-9F4B-36690AECCCED</key>
 		<dict>
 			<key>xpos</key>
-			<integer>80</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>220</integer>
 		</dict>
 		<key>D5551365-81AF-4143-9DC7-529F92C5E4DE</key>
 		<dict>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>390</integer>
 			<key>ypos</key>
-			<integer>100</integer>
+			<integer>220</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string>0.5_alfred</string>
 	<key>webaddress</key>
-	<string>https://github.com/LiSongcheng</string>
+	<string>https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/say-workflow</string>
 </dict>
 </plist>
