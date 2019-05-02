@@ -12,11 +12,11 @@ Now with say-workflow, you can do all of these just with simple clicks on your k
 
 This workflow is design for [*Alfred3*](http://alfredapp.com), although it might run on other apps as well.
 
-## Installation
+# Installation
 Double-click on *say_command.alfredworkflow* or *info.plist* in the folder, then Alfred will start loading it.  
 Further configuration is done within Alfred.
 
-## Usage
+# Usage
 It reads text swiftly without open terminal or a text file. 
 1. Toggle Alfred
   ![1](./pics/1.png)
@@ -38,7 +38,7 @@ It reads text swiftly without open terminal or a text file.
 
 Since ver. 0.4, say-workflow is able to recognise anagrams of the language codes. E.g. `Pj` and `Jp` are valid synonyms for `jp`. 
 
-## Problem shooting
+# Troubleshooting
 - If you would like to change the voice or add more languages, just add them in the dictionary called langs in the source code.  
 ```langs = {'jp':'Kyoko','en':'Daniel'}```  
 add it like this:  
