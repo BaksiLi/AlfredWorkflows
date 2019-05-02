@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.lisongcheng.daynight</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>E0FDCAE3-6BFD-4751-949B-F7458EE09DF0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8D8F0FE7-BE7D-4838-8B84-FC9148BF5591</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>BaksiLi</string>
+	<key>description</key>
+	<string>Change macOS theme to Dark/Light with one click</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>DarkOrLight</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>osmode</string>
+				<key>subtext</key>
+				<string>options: `dark`, `light`</string>
+				<key>text</key>
+				<string>Toggle Dark/Light Mode</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E0FDCAE3-6BFD-4751-949B-F7458EE09DF0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#!/bin/bash
+
+query=$1
+
+# Check=`defaults read -g AppleInterfaceStyle`
+
+if [ "$query" = "dark" ]; then
+	dark='true'
+elif [ "$query" = "light" ]; then
+	dark='false'
+else
+	dark='not dark mode'
+fi
+
+Script="tell app \"System Events\" to tell appearance preferences to set dark mode to $dark"
+
+osascript -e "$Script"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8D8F0FE7-BE7D-4838-8B84-FC9148BF5591</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>8D8F0FE7-BE7D-4838-8B84-FC9148BF5591</key>
+		<dict>
+			<key>xpos</key>
+			<integer>250</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>E0FDCAE3-6BFD-4751-949B-F7458EE09DF0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>120</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>0.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/DarkOrLight</string>
+</dict>
+</plist>
