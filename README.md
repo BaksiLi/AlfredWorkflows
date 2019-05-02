@@ -12,10 +12,13 @@ This is a growing repository which curates my workflow creations for [Alfred](ht
     Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/Should.alfredworkflow?raw=true)
     
 - [Say-command](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/say-workflow): Read out something swiftly, a good reference for pronunciation.   
-    Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/say_command.alfredworkflow?raw=true)
+    Download: [here](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/say_command.alfredworkflow?raw=true)
     
+ - [DarkOrLight](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/DarkOrLight): Change macOS theme to Dark/Light with one click.   
+ 	Download: [here](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/DarkOrLight.alfredworkflow?raw=true)   
+ 
 - [Fast-ascii](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/fast-ascii): Fast convert and paste ascii.   
-    Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/Fast_ascii.alfredworkflow?raw=true)
+    Download: [here](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/Fast_ascii.alfredworkflow?raw=true)
 
 # Other features
 ## Snippets

@@ -1,6 +1,6 @@
 <img src="./raw/icon.png" width:auto height=128pt align="right" />
 
-# say-workflow
+say-workflow
 ---
 Read out something swiftly. [Download](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/say_command.alfredworkflow?raw=true)
 
@@ -13,7 +13,7 @@ Now with say-workflow, you can do all of these just with simple clicks on your k
 This workflow is design for [*Alfred3*](http://alfredapp.com), although it might run on other apps as well.
 
 ## Installation
-Double-click on say_command.alfredworkflow or info.plist in the folder, then Alfred will start loading it.  
+Double-click on *say_command.alfredworkflow* or *info.plist* in the folder, then Alfred will start loading it.  
 Further configuration is done within Alfred.
 
 ## Usage
