@@ -4,10 +4,13 @@ AlfredWorkflows
 ![Updating](https://img.shields.io/badge/status-updating-lightgreen.svg)
 [![Contribute](https://img.shields.io/badge/contribute-gray.svg?style=flat)](https://github.com/BaksiLi/AlfredWorkflows/blob/master/CONTRIBUTE.md)
 
-This is a growing repository which curates my workflow creations for [Alfred](https://www.alfredapp.com). Most of them are Terminal friendly.  
+This is a growing repository which curates my workflow creations for [Alfred](https://www.alfredapp.com). Some of them are Terminal friendly.  
+
+[Powerpack](https://www.alfredapp.com/powerpack/) is required to enable certain functions.
+
 <sub>For Chinese version of this page, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
 
-# Menu
+# Catalogue
 - [Should-I-do-it](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/should_i_do_it): Aims to solve probably the biggest philosophical question in daily life:- *should I do it?*   
     Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/Should.alfredworkflow?raw=true)
     
@@ -22,16 +25,27 @@ This is a growing repository which curates my workflow creations for [Alfred](ht
 
 # Other features
 ## Snippets
-I have created a few useful snippets as well. Please have a try.
-
-- [Greek Alphabet](https://github.com/BaksiLi/Greek-Alphabet-Alfred-Snippet)
-- [Bopomofo](https://github.com/BaksiLi/Bopomofo-snippet)
+Please have refer to the list [AlfredSnippets](https://github.com/BaksiLi/AlfredSnippets).
 
 ## Web Search
-**Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL. It is simple but powerful (sorry for the cliché). But given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom-searches/), why do I still bother to introduce it here? Because **knowing what it can do is far from know how to do it**. Here I will propose a few suggestions that could boost your efficiency. If you find the one that fancy you, just copy&paste the link to your browser for loading it.
+**Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL. It is simple but powerful (sorry for the cliché).   
+Given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom-searches/), why do I still bother to introduce it here? Because **knowing what it can do is far from know how to do it**. Here I will propose a few suggestions that could boost your efficiency. If you find the one that fancy you, just copy & paste the link to your browser to load it.
 
-- Wolfram|Alpha
+<table>
+<tr>
+  <th><img src="features/wa.png" alt="Wolfram|Alpha Logo" width="50" height="50"></th>
+  <th><img src="features/wm.png" alt="MathWorld Logo" width="50" height="50"></th>
+  <th><img src="features/sep.png" alt="SEP Logo" width="50" height="50"></th>
+</tr>
+<tr>
+  <td>Wolfram&#124;Alpha</td>
+  <td>Wolfram MathWorld</td>
+  <td>Standford Encyclopaedia of Philosophy</td>
+</tr>
+</table>
+
 <details>
+<summary>Wolfram|Alpha</summary>
 
 Suppose you are solving a question:
 > How many times faster it is to solve TSP (Travelling Salesperson Problem), by using dynamic-programming-based algorithm (![$n!$](https://latex.codecogs.com/svg.latex?n%21)) than using brute force search algorithm (![$n^2 2^n$](https://latex.codecogs.com/svg.latex?n%5E2%202%5En)), given that n=100?
@@ -49,18 +63,20 @@ Powerful, innit?
 > alfred://customsearch/Compute%20%7Bquery%7D%20in%20Wolfram%20Alpha/alpha/utf8/%2B/https%3A%2F%2Fwww.wolframalpha.com%2Finput%2F%3Fi%3D%7Bquery%7D
 
 </details>
-	
-- Wolfram MathWorld
+
 <details>
+<summary>Wolfram MathWorld</summary>
 
 For checking definitions in maths, stats and computer science.
 > alfred://customsearch/Search%20%7Bquery%7D%20in%20Wolfram%20MathWorld/math/utf8/%2B/http%3A%2F%2Fmathworld.wolfram.com%2Fsearch%2F%3Fquery%3D%7Bquery%7D</details>
-	 
-- Standford Encyclopedia of Philosophy
+
 <details>
+<summary>Standford Encyclopaedia of Philosophy</summary>
 
 A good (actually the best) reference for philosophy. The official dashboard widget is so dumb that cannot be easily used nowadays. Alfred provides a perfect way to access it.
-> alfred://customsearch/Search%20%7Bquery%7D%20in%20Standford%20Encyclopedia%20of%20Philosophy/sep/utf8/nospace/https%3A%2F%2Fplato.stanford.edu%2Fsearch%2Fsearcher.py%3Fquery%3D%7Bquery%7D</details>
+> alfred://customsearch/Search%20%7Bquery%7D%20in%20Standford%20Encyclopedia%20of%20Philosophy/sep/utf8/nospace/https%3A%2F%2Fplato.stanford.edu%2Fsearch%2Fsearcher.py%3Fquery%3D%7Bquery%7D
+
+</details>
 
 # Acknowledgement
 This project collection is licenced under the MIT License.  
