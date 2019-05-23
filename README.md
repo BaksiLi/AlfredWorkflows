@@ -25,7 +25,7 @@ This is a growing repository which curates my workflow creations for [Alfred](ht
 
 # Other features
 ## Snippets
-Please have refer to the list [AlfredSnippets](https://github.com/BaksiLi/AlfredSnippets).
+Please refer to the list [AlfredSnippets](https://github.com/BaksiLi/AlfredSnippets).
 
 ## Web Search
 **Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL. It is simple but powerful (sorry for the cliché).   
