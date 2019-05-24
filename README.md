@@ -35,12 +35,12 @@ Given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom
 <tr>
   <th><img src="features/wa.png" alt="Wolfram|Alpha Logo" width="50" height="50"></th>
   <th><img src="features/wm.png" alt="MathWorld Logo" width="50" height="50"></th>
-  <th><img src="features/sep.png" alt="SEP Logo" width="50" height="50"></th>
+  <th><img src="features/sep.png" alt="SEP Logo red" width="25" height="25"><img src="features/sep2.png" alt="SEP Logo white" width="25" height="25"></th>
 </tr>
 <tr>
   <td>Wolfram&#124;Alpha</td>
   <td>Wolfram MathWorld</td>
-  <td>Standford Encyclopaedia of Philosophy</td>
+  <td>Standford Encyclopedia of Philosophy*</td>
 </tr>
 </table>
 
@@ -75,6 +75,9 @@ For checking definitions in maths, stats and computer science.
 
 A good (actually the best) reference for philosophy. The official dashboard widget is so dumb that cannot be easily used nowadays. Alfred provides a perfect way to access it.
 > alfred://customsearch/Search%20%7Bquery%7D%20in%20Standford%20Encyclopedia%20of%20Philosophy/sep/utf8/nospace/https%3A%2F%2Fplato.stanford.edu%2Fsearch%2Fsearcher.py%3Fquery%3D%7Bquery%7D
+
+\* Another option is to search directly in the SEP catalogue, which requires [*Friend of SEP* membership](https://plato.stanford.edu/support/friends.html). 
+> alfred://customsearch/Search%20%7Bquery%7D%20in%20SEP%27s%20catalogue/sepf/utf8/%2B/https%3A%2F%2Fleibniz.stanford.edu%2Ffriends%2Fsearch_title%2F%3Fquery%3D%7Bquery%7D
 
 </details>
 
