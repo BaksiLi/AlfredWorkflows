@@ -29,13 +29,15 @@ Please refer to the list [AlfredSnippets](https://github.com/BaksiLi/AlfredSnipp
 
 ## Web Search
 **Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL. It is simple but powerful (sorry for the cliché).   
-Given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom-searches/), why do I still bother to introduce it here? Because **knowing what it can do is far from know how to do it**. Here I will propose a few suggestions that could boost your efficiency. If you find the one that fancy you, just copy & paste the link to your browser to load it.
+Given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom-searches/), why do I still bother to introduce it here? Because **knowing what it can do is far from know how to do it**. Here I will propose a few suggestions that could boost your efficiency. 
+
+If you find the one that fancy you, just copy & paste the link to your browser to load it. The icon has to be loaded manually.
 
 <table>
 <tr>
   <th><img src="features/wa.png" alt="Wolfram|Alpha Logo" width="50" height="50"></th>
   <th><img src="features/wm.png" alt="MathWorld Logo" width="50" height="50"></th>
-  <th><img src="features/sep.png" alt="SEP Logo red" width="25" height="25">/<img src="features/sep3.png" alt="SEP Logo white" width="25" height="25">/<img src="features/sep2.png" alt="SEP Logo black" width="25" height="25"></th>
+  <th><img src="features/sep_man_r.png" alt="SEP Logo red" width="25" height="25">/<img src="features/sep_man_w.png" alt="SEP Logo white" width="25" height="25">/<img src="features/sep_man_k.png" alt="SEP Logo black" width="25" height="25"></th>
 </tr>
 <tr>
   <td>Wolfram&#124;Alpha</td>
@@ -62,22 +64,35 @@ Powerful, innit?
 
 > alfred://customsearch/Compute%20%7Bquery%7D%20in%20Wolfram%20Alpha/alpha/utf8/%2B/https%3A%2F%2Fwww.wolframalpha.com%2Finput%2F%3Fi%3D%7Bquery%7D
 
+The default keyword is `alpha`.
+
 </details>
 
 <details>
 <summary>Wolfram MathWorld</summary>
 
 For checking definitions in maths, stats and computer science.
-> alfred://customsearch/Search%20%7Bquery%7D%20in%20Wolfram%20MathWorld/math/utf8/%2B/http%3A%2F%2Fmathworld.wolfram.com%2Fsearch%2F%3Fquery%3D%7Bquery%7D</details>
+> alfred://customsearch/Search%20%7Bquery%7D%20in%20Wolfram%20MathWorld/math/utf8/%2B/http%3A%2F%2Fmathworld.wolfram.com%2Fsearch%2F%3Fquery%3D%7Bquery%7D
+
+The default keyword is `math`.
+
+</details>
 
 <details>
 <summary>Standford Encyclopaedia of Philosophy</summary>
 
 A good (actually the best) reference for philosophy. The official dashboard widget is so dumb that cannot be easily used nowadays. Alfred provides a perfect way to access it.
+
+![SEP illustration](features/sep1.png)
+
 > alfred://customsearch/Search%20%7Bquery%7D%20in%20Standford%20Encyclopedia%20of%20Philosophy/sep/utf8/nospace/https%3A%2F%2Fplato.stanford.edu%2Fsearch%2Fsearcher.py%3Fquery%3D%7Bquery%7D
+
+The default keyword is `sep`.
 
 \* Another option is to search directly in the SEP catalogue, which requires [*Friend of SEP* membership](https://plato.stanford.edu/support/friends.html). 
 > alfred://customsearch/Search%20%7Bquery%7D%20in%20SEP%27s%20catalogue/sepf/utf8/%2B/https%3A%2F%2Fleibniz.stanford.edu%2Ffriends%2Fsearch_title%2F%3Fquery%3D%7Bquery%7D
+
+The default keyword is `sepf`.
 
 </details>
 

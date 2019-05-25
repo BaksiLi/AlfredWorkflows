@@ -30,7 +30,7 @@
 <tr>
   <th><img src="features/wa.png" alt="Wolfram|Alpha Logo" width="50" height="50"></th>
   <th><img src="features/wm.png" alt="MathWorld Logo" width="50" height="50"></th>
-  <th><img src="features/sep.png" alt="SEP Logo red" width="25" height="25">/<img src="features/sep3.png" alt="SEP Logo white" width="25" height="25">/<img src="features/sep2.png" alt="SEP Logo black" width="25" height="25"></th>
+  <th><img src="features/sep_man_r.png" alt="SEP Logo red" width="25" height="25">/<img src="features/sep_man_w.png" alt="SEP Logo white" width="25" height="25">/<img src="features/sep_man_k.png" alt="SEP Logo black" width="25" height="25"></th>
 </tr>
 <tr>
   <td>Wolfram&#124;Alpha</td>
@@ -39,24 +39,38 @@
 </tr>
 </table>
 
-- Wolfram|Alpha：知識引擎加快速檢索，爽歪歪！
 <details>
+<summary>Wolfram|Alpha：知識引擎加快速檢索，爽歪歪！</summary>
 
 > alfred://customsearch/Compute%20%7Bquery%7D%20in%20Wolfram%20Alpha/alpha/utf8/%2B/https%3A%2F%2Fwww.wolframalpha.com%2Finput%2F%3Fi%3D%7Bquery%7D
+
+默認關鍵詞 `alpha`。
 </details>
-	
-- Wolfram MathWorld：方便查詢數學、計算機科學及統計的資料。
-<details>
 
-> alfred://customsearch/Search%20%7Bquery%7D%20in%20Wolfram%20MathWorld/math/utf8/%2B/http%3A%2F%2Fmathworld.wolfram.com%2Fsearch%2F%3Fquery%3D%7Bquery%7D</details>
-	 
-- Standford Encyclopedia of Philosophy：著名哲學百科，時刻待機。
 <details>
+<summary>Wolfram MathWorld：方便查詢數學、計算機科學及統計的資料</summary>
 
-> alfred://customsearch/Search%20%7Bquery%7D%20in%20Standford%20Encyclopedia%20of%20Philosophy/sep/utf8/nospace/https%3A%2F%2Fplato.stanford.edu%2Fsearch%2Fsearcher.py%3Fquery%3D%7Bquery%7D</details>
+
+> alfred://customsearch/Search%20%7Bquery%7D%20in%20Wolfram%20MathWorld/math/utf8/%2B/http%3A%2F%2Fmathworld.wolfram.com%2Fsearch%2F%3Fquery%3D%7Bquery%7D
+
+默認關鍵詞 `math`。
+</details>
+
+<details>
+<summary>Standford Encyclopaedia of Philosophy：著名哲學百科，時刻待機。</summary>
+
+![SEP illustration](features/sep1.png)
+
+> alfred://customsearch/Search%20%7Bquery%7D%20in%20Standford%20Encyclopedia%20of%20Philosophy/sep/utf8/nospace/https%3A%2F%2Fplato.stanford.edu%2Fsearch%2Fsearcher.py%3Fquery%3D%7Bquery%7D
+
+默認關鍵詞 `sep`。
 
 \* 如果你是 [*Friend of SEP*](https://plato.stanford.edu/support/friends.html)，可以嘗試下面的版本直接檢索百科目錄。 
 > alfred://customsearch/Search%20%7Bquery%7D%20in%20SEP%27s%20catalogue/sepf/utf8/%2B/https%3A%2F%2Fleibniz.stanford.edu%2Ffriends%2Fsearch_title%2F%3Fquery%3D%7Bquery%7D
+
+默認關鍵詞 `sepf`。
+
+</details>
 
 # 承知
 本項目採以 MIT Licence。
