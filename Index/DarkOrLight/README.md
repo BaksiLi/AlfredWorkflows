@@ -20,7 +20,7 @@ Double-click on *DarkOrNigh.alfredworkflow* (or *info.plist* in the folder), the
 ![osmode with options](resources/fig3.png)
 
 # Troubleshooting
-For the first time DarkOrLight is toggled, you will ask be for permission. This is necessary for the workflow to function.
+For the first time DarkOrLight is toggled, you will be asked for the permission. This is necessary for the workflow to function.
 ![fig1](resources/fig1.png)
 
 # Acknowledgement
