@@ -35,7 +35,7 @@ Given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom
 <tr>
   <th><img src="features/wa.png" alt="Wolfram|Alpha Logo" width="50" height="50"></th>
   <th><img src="features/wm.png" alt="MathWorld Logo" width="50" height="50"></th>
-  <th><img src="features/sep.png" alt="SEP Logo red" width="25" height="25"><img src="features/sep2.png" alt="SEP Logo white" width="25" height="25"></th>
+  <th><img src="features/sep.png" alt="SEP Logo red" width="25" height="25">/<img src="features/sep3.png" alt="SEP Logo white" width="25" height="25">/<img src="features/sep2.png" alt="SEP Logo black" width="25" height="25"></th>
 </tr>
 <tr>
   <td>Wolfram&#124;Alpha</td>
