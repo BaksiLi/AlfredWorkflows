@@ -8,7 +8,7 @@ This is a growing repository which curates my workflow creations for [Alfred](ht
 
 [Powerpack](https://www.alfredapp.com/powerpack/) is required to enable certain functions.
 
-<sub>For Chinese version of this page, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
+<sub>This page is available in Chinese, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
 
 # Catalogue
 - [Should-I-do-it](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/should_i_do_it): Aims to solve probably the biggest philosophical question in daily life:- *should I do it?*   
