@@ -6,7 +6,7 @@ Adjust macOS system volume with precision.
 [Download](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/Volume.alfredworkflow?raw=true)
 
 # Installation
-Double-click on *DarkOrNigh.alfredworkflow* (or *info.plist* in the folder), then Alfred will start loading it.  
+Double-click.
 
 # Usage
 1. `vol <number between 0–100>` to set system volume to the given level. 
@@ -18,4 +18,4 @@ Double-click on *DarkOrNigh.alfredworkflow* (or *info.plist* in the folder), the
 <!-- # Troubleshooting -->
 
 # Acknowledgement
-This workflow is also published on [Packal](http://www.packal.org/workflow/darkorlight).
+This workflow is also published on [Packal](http://www.packal.org/workflow/volume).

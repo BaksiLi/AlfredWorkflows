@@ -23,6 +23,9 @@ This is a growing repository which curates my workflow creations for [Alfred](ht
 - [Fast-ascii](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/fast-ascii): Fast convert and paste ascii.   
     Download: [here](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/Fast_ascii.alfredworkflow?raw=true)
 
+- [Volume](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/Volume): Adjust macOS system volume with precision.  
+	Download: [here](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/Volume.alfredworkflow?raw=true)
+	
 # Other features
 ## Snippets
 Please refer to the list [AlfredSnippets](https://github.com/BaksiLi/AlfredSnippets).
