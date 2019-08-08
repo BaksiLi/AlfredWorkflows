@@ -15,7 +15,10 @@ Double-click.
 
 1. `vol ?` to check the current volume level.
 
-<!-- # Troubleshooting -->
+# Troubleshooting
+If no notification banners are pushed after commands (esp. `vol ?`) as they should do, then check the notification centre to see whether *Do Not Disturb* mode is triggered, and make sure that the notification style for Alfred is either *Banners* or *Alerts* in System Preferences.
+
+![notification centre](resources/illus.png)
 
 # Acknowledgement
 This workflow is also published on [Packal](http://www.packal.org/workflow/volume).
