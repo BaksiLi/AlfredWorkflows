@@ -3,9 +3,9 @@
 ![Updating](https://img.shields.io/badge/status-updating-lightgreen.svg)
 [![Contribute](https://img.shields.io/badge/contribute-gray.svg?style=flat)](https://github.com/BaksiLi/AlfredWorkflows/blob/master/CONTRIBUTE.md)
 
-本倉庫儲存了我為 Alfred 寫的部分流程插件（workflow）。 部分插件可直接用於 Terminal 中。
+本倉庫保存了我為 Alfred 寫的部分*流程插件 (workflow)*。 部分插件可直接用於 Terminal 中。
  
-一些特定的功能需要用戶購買 [Powerpack](https://www.alfredapp.com/powerpack/) 。
+一些特定的功能需要用戶購買 [Powerpack](https://www.alfredapp.com/powerpack/) 才可运作。
  
 <sub>本文內容請以[英文版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README.md)為準。</sub>
 
@@ -16,6 +16,9 @@
     [下載](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/say_command.alfredworkflow?raw=true)
 - [Fast-ascii](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/fast-ascii): 即「**超凡ASCII**」，用於快速轉換文字於ASCII碼。剩下來的時間，終於可以好好讀書啦！   
 	[下載](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/Fast_ascii.alfredworkflow?raw=true)
+
+- [Volume](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/Volume): 即「**音聲**」，用於精準地調整 macOS 的音量。支持調*增*、調*至*或調*查*等操作，詳見[插件頁面](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/Volume)。   
+	[下載](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/Volume.alfredworkflow?raw=true)
 
 # 其他功能
 ## Snippets（案頭紙）
@@ -73,7 +76,7 @@
 </details>
 
 # 承知
-本項目採以 MIT Licence。
+謹參本項目權利 MIT Licence 。
 
 It is also published on [Packal](http://www.packal.org/users/lisongcheng), please check it if you want to have find out more Alfred widgets written by the author.
 
