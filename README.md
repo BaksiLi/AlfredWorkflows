@@ -7,7 +7,7 @@ This is a growing collection which curates my workflow creations<sup>&dagger;</s
 
 <sup>&dagger;: [Powerpack](https://www.alfredapp.com/powerpack/) is required to enable certain functions.</sup><br>
 
-<sub>This page is also available in Chinese, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
+<sup>This page is also available in Chinese, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sup>
 
 ## Catalogue
 - [Should-I-do-it](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/should_i_do_it): Aims to solve probably the biggest philosophical question in daily life:- *should I do it?*   
@@ -30,26 +30,10 @@ This is a growing collection which curates my workflow creations<sup>&dagger;</s
 
 ### Themes
 
-<table>
-<colgroup>
-<col style="width: 49%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><img src="./features/frosty_dark.png" title="fig:" alt="Frosty Dark" /></td>
-<td><img src="./features/frosty_light.png" title="fig:" alt="Frosty Light" /></td>
-</tr>
-<tr class="even">
-<td>Dark</td>
-<td>Light</td>
-</tr>
-<tr class="odd">
-<td><a href="alfred://theme/?t=eyJhbGZyZWR0aGVtZSI6eyJyZXN1bHQiOnsidGV4dFNwYWNpbmciOjUsInN1YnRleHQiOnsic2l6ZSI6MTIsImNvbG9yU2VsZWN0ZWQiOiIjRkZGRkZGQTciLCJmb250IjoiU3lzdGVtIExpZ2h0IiwiY29sb3IiOiIjRkZGRkZGN0YifSwic2hvcnRjdXQiOnsic2l6ZSI6MTcsImNvbG9yU2VsZWN0ZWQiOiIjRkZGRkZGOUUiLCJmb250IjoiU3lzdGVtIExpZ2h0IiwiY29sb3IiOiIjRkZGRkZGN0UifSwiYmFja2dyb3VuZFNlbGVjdGVkIjoiIzMzMzMzMzI2IiwidGV4dCI6eyJzaXplIjoyMSwiY29sb3JTZWxlY3RlZCI6IiNGRkZGRkZGRiIsImZvbnQiOiJTeXN0ZW0gTGlnaHQiLCJjb2xvciI6IiNGRkZGRkZDQiJ9LCJpY29uUGFkZGluZ0hvcml6b250YWwiOjYsInBhZGRpbmdWZXJ0aWNhbCI6NCwiaWNvblNpemUiOjQ1fSwic2VhcmNoIjp7InBhZGRpbmdWZXJ0aWNhbCI6MCwiYmFja2dyb3VuZCI6IiNGRkZGRkYwMCIsInNwYWNpbmciOjUsInRleHQiOnsic2l6ZSI6NDMsImNvbG9yU2VsZWN0ZWQiOiIjMDAwMDAwRkYiLCJmb250IjoiU3lzdGVtIiwiY29sb3IiOiIjRkZGRkZGRkYifSwiYmFja2dyb3VuZFNlbGVjdGVkIjoiI0IyRDdGRkZGIn0sIndpbmRvdyI6eyJjb2xvciI6IiMxQjFEMUU1NCIsInBhZGRpbmdIb3Jpem9udGFsIjowLCJ3aWR0aCI6NTg4LCJib3JkZXJQYWRkaW5nIjowLCJib3JkZXJDb2xvciI6IiMwMDAwMDBGRiIsImJsdXIiOjE2LCJyb3VuZG5lc3MiOjEwLCJwYWRkaW5nVmVydGljYWwiOjV9LCJjcmVkaXQiOiJCYWtzaUxpIiwic2VwYXJhdG9yIjp7ImNvbG9yIjoiI0NEMDBGRkZGIiwidGhpY2tuZXNzIjowfSwic2Nyb2xsYmFyIjp7ImNvbG9yIjoiIzAwMDAwMDMzIiwidGhpY2tuZXNzIjozfSwibmFtZSI6IkZyb3N0eSBEYXJrIn19">Install</a> or <a href="./themes/Frosty_Dark.alfredappearance">Download</a></td>
-<td><a href="alfred://theme/?t=eyJhbGZyZWR0aGVtZSI6eyJyZXN1bHQiOnsidGV4dFNwYWNpbmciOjUsInN1YnRleHQiOnsic2l6ZSI6MTIsImNvbG9yU2VsZWN0ZWQiOiIjMUYxRjFGRkYiLCJmb250IjoiU3lzdGVtIExpZ2h0IiwiY29sb3IiOiIjNEE0QTRCRTQifSwic2hvcnRjdXQiOnsic2l6ZSI6MTcsImNvbG9yU2VsZWN0ZWQiOiIjMDAwMDAwMzMiLCJmb250IjoiU3lzdGVtIExpZ2h0IiwiY29sb3IiOiIjMDAwMDAwMzMifSwiYmFja2dyb3VuZFNlbGVjdGVkIjoiIzMzMzMzMzI2IiwidGV4dCI6eyJzaXplIjoyMSwiY29sb3JTZWxlY3RlZCI6IiMxRjFGMUZGRiIsImZvbnQiOiJTeXN0ZW0gTGlnaHQiLCJjb2xvciI6IiMzODM4MzlGRiJ9LCJpY29uUGFkZGluZ0hvcml6b250YWwiOjYsInBhZGRpbmdWZXJ0aWNhbCI6NCwiaWNvblNpemUiOjQ1fSwic2VhcmNoIjp7InBhZGRpbmdWZXJ0aWNhbCI6MCwiYmFja2dyb3VuZCI6IiNGRkZGRkYwMCIsInNwYWNpbmciOjUsInRleHQiOnsic2l6ZSI6NDMsImNvbG9yU2VsZWN0ZWQiOiIjMDAwMDAwRkYiLCJmb250IjoiU3lzdGVtIiwiY29sb3IiOiIjMUQxRDFFRTUifSwiYmFja2dyb3VuZFNlbGVjdGVkIjoiI0IyRDdGRkZGIn0sIndpbmRvdyI6eyJjb2xvciI6IiNEQkVCRjU2NSIsInBhZGRpbmdIb3Jpem9udGFsIjowLCJ3aWR0aCI6NTg4LCJib3JkZXJQYWRkaW5nIjowLCJib3JkZXJDb2xvciI6IiNGRUZGRkVGRiIsImJsdXIiOjMwLCJyb3VuZG5lc3MiOjEwLCJwYWRkaW5nVmVydGljYWwiOjV9LCJjcmVkaXQiOiJCYWtzaUxpIiwic2VwYXJhdG9yIjp7ImNvbG9yIjoiI0NEMDBGRkZGIiwidGhpY2tuZXNzIjowfSwic2Nyb2xsYmFyIjp7ImNvbG9yIjoiIzAwMDAwMDMzIiwidGhpY2tuZXNzIjozfSwibmFtZSI6IkZyb3N0eSBMaWdodCJ9fQ==">Install</a> or <a href="./themes/Frosty_Light.alfredappearance">Download</a></td>
-</tr>
-</tbody>
-</table>
+| ![Frosty Dark](./features/frosty_dark.png) | ![Frosty Light](./features/frosty_light.png) |
+|:-:|:-:|
+| Dark | Light |
+| [Install](https://www.alfredapp.com/extras/theme/uFYxkqAZGb/) or [Download](./themes/Frosty_Dark.alfredappearance) | [Install](https://www.alfredapp.com/extras/theme/BteX83Wj4G/) or [Download](./themes/Frosty_Light.alfredappearance) |
 
 I use the **Frosty** theme family created by myself. They are *Frosty Light* and *Frosty Dark*, originally created to fit into macOS Mojave when Dark Mode was firstly introduced. Now they are updated for macOS Big Sur!
 

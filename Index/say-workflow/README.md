@@ -1,7 +1,7 @@
 <img src="./raw/icon.png" width:auto height=128pt align="right" />
 
-say-workflow
----
+# say-workflow
+
 Read out something swiftly. [Download](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/say_command.alfredworkflow?raw=true)
 
 <sub>Update: The version after 0.6 includes a new keyword `pronounce`. If you prefer not having it, you could either download [the old version](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/say_command_0.5.alfredworkflow?raw=true) or delete disable the keyword in the workflow manually.</sub>
@@ -21,14 +21,14 @@ Keyword \ Requirements | Alfred Powerpack | *requests*\* | *afplay* | OED API
 
 <sub>* for for python (/usr/bin/python).</sub>
 
-# Installation
+## Installation
 Double-click on *say_command.alfredworkflow* or *info.plist* in the folder, Alfred will start loading it.
 
 For `pronounce`, you should register at [Oxford English Dictionary API](https://developer.oxforddictionaries.com/) to get a developer API id and key. Fill them into the workflow manually to enable this keyword.
 
-# Usage
+## Usage
 It reads text swiftly without open terminal or a text file. 
-## Say
+### Say
 1. Toggle Alfred
   ![1](./pics/1.png)
 
@@ -49,11 +49,11 @@ It reads text swiftly without open terminal or a text file.
 
 Since ver. 0.4, say-workflow is able to recognise anagrams of the language codes. E.g. `Pj` and `Jp` are valid synonyms for `jp`. 
 
-## Pronounce (after ver. 0.6)
+### Pronounce (after ver. 0.6)
   ``` pronounce``` followed by a word that you want to check. **You should fill in your own API into the workflow to enable this function.**
 
-# Troubleshooting
-## Say
+## Troubleshooting
+### Say
 - If you would like to change the voice or add more languages, just add them in the dictionary called langs in the source code.  
 ```langs = {'jp':'Kyoko','en':'Daniel'}```  
 add it like this:  
@@ -61,6 +61,6 @@ add it like this:
 for voices names and their corresponding abbreviations, check [“say” in different language?](https://apple.stackexchange.com/questions/3454/say-in-different-language).
 - If you type in a word but nothing has happened.
 check if the text you've typed in is valid under the language you chose. If it doesn't help, raise an issue and I will sort it ASAP.
-## Pronounce
+### Pronounce
 - It keep returns (pronouncing) error, check if the OED API has been correctly configured as the following: ![6](./pics/6.png)
 

@@ -3,11 +3,11 @@
 ![Updating](https://img.shields.io/badge/status-updating-lightgreen.svg)
 [![Contribute](https://img.shields.io/badge/contribute-gray.svg?style=flat)](https://github.com/BaksiLi/AlfredWorkflows/blob/master/CONTRIBUTE.md)
 
-本倉庫保存了我為 Alfred 寫的部分*流程插件 (workflow)*。 部分插件可直接用於 Terminal 中。
+本倉庫保存了我為 Alfred 寫的部分*流程插件 (workflow)*<sup>&dagger;</sup>。 部分插件可直接用於 Terminal 中。
  
-一些特定的功能需要用戶購買 [Powerpack](https://www.alfredapp.com/powerpack/) 才可运作。
+<sup>&dagger;: 一些特定的功能需要用戶購買 [Powerpack](https://www.alfredapp.com/powerpack/) 才可运作。</sup><br>
  
-<sub>本文內容請以[英文版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README.md)為準。</sub>
+<sup>本文內容請以[英文版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README.md)為準。</sup>
 
 ## 目錄
 - [Should-I-do-it](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/should_i_do_it): 即「**我該咋辦**」，用於解決日常最為棘手的哲學問題。當你面對這個充滿灰度認知的世界時，或許你會想問一下：我該咋辦？   
@@ -21,6 +21,16 @@
 	[下載](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/Volume.alfredworkflow?raw=true)
 
 # 其他功能
+
+### Themes （皮膚）
+
+| ![Frosty Dark](./features/frosty_dark.png) | ![Frosty Light](./features/frosty_light.png) |
+|:-:|:-:|
+| 暗 | 朙 |
+| [外鏈](https://www.alfredapp.com/extras/theme/uFYxkqAZGb/) or [本地下載](./themes/Frosty_Dark.alfredappearance) | [外鏈](https://www.alfredapp.com/extras/theme/BteX83Wj4G/) or [本地下載](./themes/Frosty_Light.alfredappearance) |
+
+我使用自製的 **Frosty** 皮膚組合，包括 *Frosty Light* and *Frosty Dark* 兩種，原本是設計來兼容 macOS Mojave 的暗黑模式的。現已更新至 Big Sur 的樣式！
+
 ## Snippets（案頭紙）
 [Snippets](https://www.alfredapp.com/help/features/snippets/) 是 Alfred 提供的另一生產利器。它允許快捷輸入各種符號、字段甚至是經過處理的信息。以下是我寫的一些 snippets。請移步 [AlfredSnippets](https://github.com/BaksiLi/AlfredSnippets)。
 
@@ -78,6 +88,7 @@
 # 承知
 謹參本項目權利 MIT Licence 。
 
-It is also published on [Packal](http://www.packal.org/users/lisongcheng), please check it if you want to have find out more Alfred widgets written by the author.
+I use to published them on [Packal](http://www.packal.org/users/lisongcheng), you can still find the legacy versions there.
 
-Copyright (c) 2018 BaksiLi
+Copyright (c) 2020 BaksiLi
+
