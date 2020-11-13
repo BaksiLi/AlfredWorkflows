@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#1F1F1FFF",
+        "font" : "System Light",
+        "color" : "#4A4A4BE4"
+      },
+      "shortcut" : {
+        "size" : 17,
+        "colorSelected" : "#00000033",
+        "font" : "System Light",
+        "color" : "#00000033"
+      },
+      "backgroundSelected" : "#33333326",
+      "text" : {
+        "size" : 21,
+        "colorSelected" : "#1F1F1FFF",
+        "font" : "System Light",
+        "color" : "#383839FF"
+      },
+      "iconPaddingHorizontal" : 6,
+      "paddingVertical" : 4,
+      "iconSize" : 45
+    },
+    "search" : {
+      "paddingVertical" : 0,
+      "background" : "#FFFFFF00",
+      "spacing" : 5,
+      "text" : {
+        "size" : 43,
+        "colorSelected" : "#000000FF",
+        "font" : "System",
+        "color" : "#1D1D1EE5"
+      },
+      "backgroundSelected" : "#B2D7FFFF"
+    },
+    "window" : {
+      "color" : "#DBEBF565",
+      "paddingHorizontal" : 0,
+      "width" : 588,
+      "borderPadding" : 0,
+      "borderColor" : "#FEFFFEFF",
+      "blur" : 30,
+      "roundness" : 10,
+      "paddingVertical" : 5
+    },
+    "credit" : "BaksiLi",
+    "separator" : {
+      "color" : "#CD00FFFF",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#00000033",
+      "thickness" : 3
+    },
+    "name" : "Frosty Light"
+  }
+}

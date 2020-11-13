@@ -1,16 +1,15 @@
-AlfredWorkflows
----
+# AlfredWorkflows
 [![License: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Updating](https://img.shields.io/badge/status-updating-lightgreen.svg)
 [![Contribute](https://img.shields.io/badge/contribute-gray.svg?style=flat)](https://github.com/BaksiLi/AlfredWorkflows/blob/master/CONTRIBUTE.md)
 
-This is a growing repository which curates my workflow creations for [Alfred](https://www.alfredapp.com). Some of them are Terminal friendly.  
+This is a growing collection which curates my workflow creations<sup>&dagger;</sup> for [Alfred](https://www.alfredapp.com). Some of them are Terminal friendly.  
 
-[Powerpack](https://www.alfredapp.com/powerpack/) is required to enable certain functions.
+<sup>&dagger;: [Powerpack](https://www.alfredapp.com/powerpack/) is required to enable certain functions.</sup><br>
 
-<sub>This page is available in Chinese, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
+<sub>This page is also available in Chinese, see [漢語版](https://github.com/BaksiLi/AlfredWorkflows/blob/master/README_CN.md).</sub>
 
-# Catalogue
+## Catalogue
 - [Should-I-do-it](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/should_i_do_it): Aims to solve probably the biggest philosophical question in daily life:- *should I do it?*   
     Download: [here](https://github.com/BaksiLi/AlfredWorkflows/blob/master/workflows/Should.alfredworkflow?raw=true)
     
@@ -26,12 +25,39 @@ This is a growing repository which curates my workflow creations for [Alfred](ht
 - [Volume](https://github.com/BaksiLi/AlfredWorkflows/tree/master/Index/Volume): Adjust macOS system volume with precision.  
 	Download: [here](https://github.com/BaksiLi/AlfredWorkflows/tree/master/workflows/Volume.alfredworkflow?raw=true)
 	
-# Other features
-## Snippets
+
+## Other features
+
+### Themes
+
+<table>
+<colgroup>
+<col style="width: 49%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="./features/frosty_dark.png" title="fig:" alt="Frosty Dark" /></td>
+<td><img src="./features/frosty_light.png" title="fig:" alt="Frosty Light" /></td>
+</tr>
+<tr class="even">
+<td>Dark</td>
+<td>Light</td>
+</tr>
+<tr class="odd">
+<td><a href="alfred://theme/?t=eyJhbGZyZWR0aGVtZSI6eyJyZXN1bHQiOnsidGV4dFNwYWNpbmciOjUsInN1YnRleHQiOnsic2l6ZSI6MTIsImNvbG9yU2VsZWN0ZWQiOiIjRkZGRkZGQTciLCJmb250IjoiU3lzdGVtIExpZ2h0IiwiY29sb3IiOiIjRkZGRkZGN0YifSwic2hvcnRjdXQiOnsic2l6ZSI6MTcsImNvbG9yU2VsZWN0ZWQiOiIjRkZGRkZGOUUiLCJmb250IjoiU3lzdGVtIExpZ2h0IiwiY29sb3IiOiIjRkZGRkZGN0UifSwiYmFja2dyb3VuZFNlbGVjdGVkIjoiIzMzMzMzMzI2IiwidGV4dCI6eyJzaXplIjoyMSwiY29sb3JTZWxlY3RlZCI6IiNGRkZGRkZGRiIsImZvbnQiOiJTeXN0ZW0gTGlnaHQiLCJjb2xvciI6IiNGRkZGRkZDQiJ9LCJpY29uUGFkZGluZ0hvcml6b250YWwiOjYsInBhZGRpbmdWZXJ0aWNhbCI6NCwiaWNvblNpemUiOjQ1fSwic2VhcmNoIjp7InBhZGRpbmdWZXJ0aWNhbCI6MCwiYmFja2dyb3VuZCI6IiNGRkZGRkYwMCIsInNwYWNpbmciOjUsInRleHQiOnsic2l6ZSI6NDMsImNvbG9yU2VsZWN0ZWQiOiIjMDAwMDAwRkYiLCJmb250IjoiU3lzdGVtIiwiY29sb3IiOiIjRkZGRkZGRkYifSwiYmFja2dyb3VuZFNlbGVjdGVkIjoiI0IyRDdGRkZGIn0sIndpbmRvdyI6eyJjb2xvciI6IiMxQjFEMUU1NCIsInBhZGRpbmdIb3Jpem9udGFsIjowLCJ3aWR0aCI6NTg4LCJib3JkZXJQYWRkaW5nIjowLCJib3JkZXJDb2xvciI6IiMwMDAwMDBGRiIsImJsdXIiOjE2LCJyb3VuZG5lc3MiOjEwLCJwYWRkaW5nVmVydGljYWwiOjV9LCJjcmVkaXQiOiJCYWtzaUxpIiwic2VwYXJhdG9yIjp7ImNvbG9yIjoiI0NEMDBGRkZGIiwidGhpY2tuZXNzIjowfSwic2Nyb2xsYmFyIjp7ImNvbG9yIjoiIzAwMDAwMDMzIiwidGhpY2tuZXNzIjozfSwibmFtZSI6IkZyb3N0eSBEYXJrIn19">Install</a> or <a href="./themes/Frosty_Dark.alfredappearance">Download</a></td>
+<td><a href="alfred://theme/?t=eyJhbGZyZWR0aGVtZSI6eyJyZXN1bHQiOnsidGV4dFNwYWNpbmciOjUsInN1YnRleHQiOnsic2l6ZSI6MTIsImNvbG9yU2VsZWN0ZWQiOiIjMUYxRjFGRkYiLCJmb250IjoiU3lzdGVtIExpZ2h0IiwiY29sb3IiOiIjNEE0QTRCRTQifSwic2hvcnRjdXQiOnsic2l6ZSI6MTcsImNvbG9yU2VsZWN0ZWQiOiIjMDAwMDAwMzMiLCJmb250IjoiU3lzdGVtIExpZ2h0IiwiY29sb3IiOiIjMDAwMDAwMzMifSwiYmFja2dyb3VuZFNlbGVjdGVkIjoiIzMzMzMzMzI2IiwidGV4dCI6eyJzaXplIjoyMSwiY29sb3JTZWxlY3RlZCI6IiMxRjFGMUZGRiIsImZvbnQiOiJTeXN0ZW0gTGlnaHQiLCJjb2xvciI6IiMzODM4MzlGRiJ9LCJpY29uUGFkZGluZ0hvcml6b250YWwiOjYsInBhZGRpbmdWZXJ0aWNhbCI6NCwiaWNvblNpemUiOjQ1fSwic2VhcmNoIjp7InBhZGRpbmdWZXJ0aWNhbCI6MCwiYmFja2dyb3VuZCI6IiNGRkZGRkYwMCIsInNwYWNpbmciOjUsInRleHQiOnsic2l6ZSI6NDMsImNvbG9yU2VsZWN0ZWQiOiIjMDAwMDAwRkYiLCJmb250IjoiU3lzdGVtIiwiY29sb3IiOiIjMUQxRDFFRTUifSwiYmFja2dyb3VuZFNlbGVjdGVkIjoiI0IyRDdGRkZGIn0sIndpbmRvdyI6eyJjb2xvciI6IiNEQkVCRjU2NSIsInBhZGRpbmdIb3Jpem9udGFsIjowLCJ3aWR0aCI6NTg4LCJib3JkZXJQYWRkaW5nIjowLCJib3JkZXJDb2xvciI6IiNGRUZGRkVGRiIsImJsdXIiOjMwLCJyb3VuZG5lc3MiOjEwLCJwYWRkaW5nVmVydGljYWwiOjV9LCJjcmVkaXQiOiJCYWtzaUxpIiwic2VwYXJhdG9yIjp7ImNvbG9yIjoiI0NEMDBGRkZGIiwidGhpY2tuZXNzIjowfSwic2Nyb2xsYmFyIjp7ImNvbG9yIjoiIzAwMDAwMDMzIiwidGhpY2tuZXNzIjozfSwibmFtZSI6IkZyb3N0eSBMaWdodCJ9fQ==">Install</a> or <a href="./themes/Frosty_Light.alfredappearance">Download</a></td>
+</tr>
+</tbody>
+</table>
+
+I use the **Frosty** theme family created by myself. They are *Frosty Light* and *Frosty Dark*, originally created to fit into macOS Mojave when Dark Mode was firstly introduced. Now they are updated for macOS Big Sur!
+
+### Snippets
 Please refer to the list [AlfredSnippets](https://github.com/BaksiLi/AlfredSnippets).
 
-## Web Search
-**Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL. It is simple but powerful (sorry for the cliché).   
+### Web Searches
+**Web Search** (in *Alfred Preferences* -> *Web Search*) enables fast queries from a website by its URL.
 Given its [simplicity](https://www.alfredapp.com/help/features/web-search/custom-searches/), why do I still bother to introduce it here? Because **knowing what it can do is far from know how to do it**. Here I will propose a few suggestions that could boost your efficiency. 
 
 If you find the one that fancy you, just copy & paste the link to your browser to load it. The icon has to be loaded manually.
@@ -99,9 +125,9 @@ The default keyword is `sepf`.
 
 </details>
 
-# Acknowledgement
-This project collection is licenced under the MIT License.  
-It is also published on [Packal](http://www.packal.org/users/lisongcheng), please check it if you want to have find out more Alfred widgets written by the author.
+## Acknowledgement
+This project collection is licensed under the MIT License.  
+I use to published them on [Packal](http://www.packal.org/users/lisongcheng), you can still find the legacy versions there.
 
-Copyright (c) 2018 BaksiLi
+Copyright (c) 2020 BaksiLi
 
